@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+   
+}
+body
+{
+    overflow-x: hidden;
+}
+nav{
+    border-bottom: 1px solid #ccc;
+}
+nav .nav-item{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+nav .nav-item a{
+    color: #111;
+    transition: 1 all ease-in-out;
+}
+nav .nav-item:hover a{
+    opacity: 0.5;
+}
+nav .btn{
+    border: 2px solid #111;
+    background-color: #111;
+    color: #fff;
+}
+nav .btn:hover{
+    background-color: transparent;
+    border: 2px solid #111;
+}
+#carouselExampleCaptions{
+    margin-top: auto;
+}
+.carousel-inner .carousel-item img{
+    width: 100%;
+    height: 85vh;
+    object-fit: cover;
+  
+}
+.carousel-inner .carousel-caption span{
+    color: #000;
+    font-weight: 900;
+}
+.carousel-inner .carousel-caption h5{
+    font-size: 4rem;
+    color: #111;
+    font-weight: 900;
+}
+.carousel-inner .carousel-caption p{
+    color: #111;
+    font-weight: 800;
+}
+.carousel-inner .carousel-caption button a{
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.carousel-inner .carousel-caption  button{
+    border: 2px solid rgb(238, 61, 61);
+    background-color: rgb(238, 61, 61);
+}
+#destination{
+    margin-top: 5%;
+}
+#destination h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 3rem;
+}
+#destination p{
+    text-align: center;
+    color: #555;
+}
+#destination .row{
+    margin-top: 5%;
+}
+#destination .row .card img{
+    object-fit: cover;
+    height: 39vh;
+}
+#destination .row .card .card-text{
+    text-align: left;
+    font-size: 1.5rem;
+    color: #111;
+    font-weight: 900;
+}
+#banner{
+    font-size: 62.5%;
+    text-align: center;
+    margin-top: 5%;
+    width: 100%;
+    height: 59vh;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+#banner h2{
+    padding-top: 7%;
+    color: #fff;
+    transition: all .1s ease-in-out;
+    cursor: pointer;
+    font-weight: 800;
+}
+#banner h2:hover{
+    color: #555;
+}
+#banner p{
+    color: #fff;
+}
+#banner button a{
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+#banner button{
+    border: 2px solid rgb(238, 61, 61);
+    background-color: rgb(238, 61, 61);
+}
+#banner button:hover{
+    background-color: rgb(224, 41, 41);
+}
+#sb{
+    margin-top: 7%;
+}
+#sb .row img{
+    width: 100%;
+    transition: all .1s ease;
+    cursor: pointer;
+}
+#sb .row img:hover{
+    opacity: 0.7;
+}
+#sb .row h2{
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding-bottom: 12px;
+}
+#sb .row .btn{
+    border: 2px solid rgb(238, 61, 61);
+    background-color: rgb(238, 61, 61);
+}
+#sb .row .btn a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+#sb .row .btn a:hover{
+    color: #000;
+}
+#sb .row .btn:hover{
+    background: transparent;
+    color: #000;
+}
+#p{
+ margin-top: 7%;
+ background-color: #dadada;
+ height: auto;
+}
+#p .card{
+    margin-top: 9%;
+    background: transparent;
+    border: none;
+}
+#p .card .card-body i{
+    font-size: 1.5rem;
+    padding: 12px;
+    background-color: rgb(250, 131, 131);
+    border-radius: 50%;
+    color: rgb(238, 61, 61);
+}
+#p .card .card-body h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 12px;
+}
+#p .card .card-body p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+#p .card .card-body a{
+    color: rgb(224, 61, 61);
+    text-decoration: none;
+    font-weight: 600;
+}
+#p-2{
+    background-color: rgb(17, 17, 39);
+    height: auto;
+   }
+#p-2 .card{
+    margin-top: 9%;
+    background: transparent;
+    border: none;
+ }
+#p-2 .card .card-body h5{
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding-top: 12px;
+    padding-right: 12px;
+    color: #fff;
+    border-right: 1px solid white;
+}
+#testimonials{
+    margin-top: 7%;
+}
+#testimonials h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+#testimonials .card{
+    background-color: #dadada;
+    padding: 12px;
+    margin-top: 5%;
+}
+#testimonials .card .card-text h5{
+    color: #555;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+#testimonials .card .card-text p{
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 900;
+    text-align: center;
+}
+#footer{
+    margin-top: 7%;
+    padding:  7% 0% .8% 8%;;
+    background-color: rgb(17, 17, 39);
+    height: auto;
+    overflow-x: hidden;
+}
+#footer .company{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 800;
+}
+ #footer .fw-bold{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.list-unstyled li a{
+    color: #e0e0e0;
+    text-decoration: none;
+}
+#footer .title{
+    color: #e0e0e0;
+}
+#footer .copyright p{
+    color: #e0e0e0;
+}
+#content{
+    margin-top: 7%;
+}
+#content h1{
+    text-align: center;
+    font-weight: 800;
+    font-size: 3rem;
+}
+#content p{
+    text-align: center;
+    font-weight: 500;
+    padding-top: 12px;
+    font-size: 1rem;
+}
+#card-new{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#card-new .card{
+    margin-top: 3%;
+    border: 1px solid #555;
+    padding: 12px;
+
+}
+#card-new h2{
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3rem;
+}
+#card-new p{
+    color: #000;
+    font-weight: 600;
+}
+#b-3 .card{
+    margin-bottom: 5%;
+    background: transparent;
+    border: none;
+    background-color: #dadada;
+    padding: 12px;
+    margin-top: 5%;
+}
+#b-3 .card .card-body i{
+    font-size: 1.5rem;
+    padding: 12px;
+    text-align: center;
+    background-color: rgb(250, 131, 131);
+    border-radius: 50%;
+    color: rgb(238, 61, 61);
+}
+#b-3 .card .card-body h2{
+    font-size: 1.1rem;
+    padding-top: 12px;
+    font-weight: 800;
+}
+#about{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#about h3{
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 12px;
+}
+#about p{
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+#service{
+    margin-top: 10%;
+}
+#service .card{
+    border: none;
+    padding: 20px;
+}
+#service .card h3{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+#service .card p{
+    padding: 12px;
+    font-size: 1.1rem;
+    color: #000;
+}
+#package{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+#package h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 3rem;
+}
+#package p{
+    text-align: center;
+    color: #000;
+    padding-bottom: 12px;
+}
+#package .row h5{
+    padding-top: 4%;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+#package .row .list-styled li{
+    font-weight: 500;
+    color: #555;
+}
+#package .row .list-styled li:last-child{
+    padding-bottom: 25px;
+}
+#contact{
+    margin-top: 10%;
+}
+#contact .row h5{
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+#contact .row p{
+    color: #000;
+    font-weight: 500;
+}
+#contact .row form{
+    padding: 15%;
+    border: 1px solid #cccc;
+}
+#contact .row form .form-control{
+   background-color: #cccccc;
+}
+#contact .row form textarea{
+    resize: none;
+    width: 100%;
+    height: 15vh;
+}
+#contact .row form button{
+    margin-top: 12px;
+    border: 2px solid rgb(238, 61, 61);
+    background-color: rgb(238, 61, 61);
+}
+#contact .row form button:hover{
+    background-color: rgb(224, 41, 41);
+}
+#login{
+    margin-top: 10%;
+}
+#login h4{
+    text-align: center;
+    font-weight: 900;
+    font-size: 3rem;
+}
+#login p{
+    text-align: center;
+    color: #000;
+    padding-bottom: 12px;
+}
+#login form{
+    padding: 12px;
+    width: 75%;
+    border-radius: 10px;
+    border: 1px solid #cccc;
+    margin: auto;
+}
+#login form button{
+    width: 100%;
+    font-size: 16px;
+}
+#login form span a{
+    text-decoration: none;
+    color: #000;
+}
